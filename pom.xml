@@ -70,13 +70,15 @@
 			<version>1.2.5</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
-		<dependency>
+		<!-- Comentar esta dependencia que está causando problemas
+		<<dependency>
 			<groupId>a7e624be-4fa2-429a-bddf-ed8a6b4b4491</groupId>
 			<artifactId>examplegithub</artifactId>
 			<version>1.0.0</version>
 			<classifier>raml</classifier>
 			<type>zip</type>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-apikit-module</artifactId>
